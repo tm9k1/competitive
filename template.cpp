@@ -8,8 +8,8 @@ class X{public:
 	}
 	
 };
-void operator<<(ostream &cout){
-		cout<<a;
+void operator<<(ostream &cout,X<int> a){
+		cout<<a.a;
 	}
 int main(){
 	X<int> a;
