@@ -18,9 +18,11 @@ void progress(int **g, int i, int j, bool **vi) {
 	if (j + 1 != m && !vi[i][j + 1]) if (g[i][j + 1] <= g[i][j]) progress(g, i, j + 1, vi) ; else {pr a; a.i=i;a.j=j+1;p.push_back(a);} ;
 	return;
 }
+
 bool mycomp(pr &a,pr &b){
 	return g[a.i][a.j]<g[b.i][b.j];
 }
+
 void assimilate(int **g, bool **vi) {
 	int max , mi, mj;
 		max=-1;
@@ -42,6 +44,7 @@ void assimilate(int **g, bool **vi) {
 		}		
 	return;
 }
+
 int main() {
 	int t;
 	cin >> t;
