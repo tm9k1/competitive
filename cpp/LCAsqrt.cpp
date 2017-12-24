@@ -1,4 +1,4 @@
-// depth_= 0 at root
+// depth = 0 at root
 
 #include <iostream>
 #include <iomanip>
