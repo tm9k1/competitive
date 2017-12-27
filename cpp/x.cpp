@@ -3,12 +3,9 @@
 using namespace std;
 
 int main() {
-	int t;
-	cin >> t;
-	while (t--) {
-		int n;
-		cin >> n;
+	int n, a, b;
+	cin >> n >> a >> b;
+	
 
-		cout<<'\n';
-
-	}}
+	cout << '\n';
+}
