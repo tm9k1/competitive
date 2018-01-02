@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <cmath>
 #include <cstdio>
 using namespace std;
 bool is_attacked(int x,int y,int board[][10],int n){
