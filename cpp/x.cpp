@@ -1,11 +1,12 @@
-#include <iostream>
-#include <iomanip>
+#include<iostream>
+#include<cstdio>
+#include<cmath>
+#include <string>
 using namespace std;
 
-int main() {
-	int n, a, b;
-	cin >> n >> a >> b;
-	
+int main()
+{
 
-	cout << '\n';
+    cout << '\n';
+
 }
