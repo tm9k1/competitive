@@ -1,8 +1,5 @@
 #include<iostream>
-#include <cmath>
-#include<algorithm>
-#include<vector>
-#include <string>
+#include<cmath>
 using namespace std;
 
 int main()
@@ -10,5 +7,8 @@ int main()
 	int t;
 	cin >> t;
 	while (t--) {
+		int a, b;
+		
 	}
+
 }
