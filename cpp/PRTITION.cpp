@@ -41,7 +41,7 @@ int main()
 						parts[i]='1';
 						s1 -= (diff / 2);
 						s2 += (diff / 2);
-						cout<<"i= "<<i<<'\n';
+						// cout<<"i= "<<i<<'\n';
 						break;
 					}
 					// else cout<<i<<" - > "<<"parts[i] ="<<parts[8]<<" parts[i + diff / 2] = "<<parts[i + diff / 2]<<'\n';
