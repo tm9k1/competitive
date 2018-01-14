@@ -1,9 +1,9 @@
 #include <iostream>
 // #include <cstring>
-// #include <cmath>
+#include <cmath>
 using namespace std;
 
-bool check(bool board[][8], int x, int y, int N){
+bool check(bool board[][99], int x, int y, int N){
 	//row check col check
 	for(int i = 0; i < N; ++i){
 		if (board[x][i] == true) return false;
@@ -21,7 +21,7 @@ bool check(bool board[][8], int x, int y, int N){
 
 }
 
-bool sol(bool board[][8], int nQueens, int dim)
+bool sol(bool board[][99], int nQueens, int dim)
 {
 	if (nQueens == 0) return true;
 	for(int r = 0; r < dim; ++r)
@@ -35,7 +35,7 @@ bool sol(bool board[][8], int nQueens, int dim)
 	return false;
 }
 
-void print(bool board[][8], int nQueens){
+void print(bool board[][99], int nQueens){
 	for(int r = 0; r < nQueens; ++r){
 		for(int c = 0; c < nQueens; ++c){
 			cout << board[r][c] << " ";
@@ -45,7 +45,7 @@ void print(bool board[][8], int nQueens){
 }
 
 int main(){
-	bool board[8][8]={0};
+	bool board[99][99]={0};
 	// memset(board, 0, sizeof (board));
 	int n; cin >> n;
 	bool isPossible = sol(board, n, n);
