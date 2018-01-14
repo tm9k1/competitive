@@ -1,0 +1,25 @@
+package TimeAndSpace;
+
+public class polynomial {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		poly(5,3);
+	}
+	
+	public static void poly(int x, int n){
+		
+		int X=(int)Math.pow(x, n);
+		int sum=0;
+		
+		for(int i=1; i<=n; i++){
+			sum=sum+(i*X);
+			X=X/x;
+		}
+		
+		System.out.println(sum);
+	}
+
+}
