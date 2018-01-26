@@ -1,3 +1,4 @@
+                                                            # UVa 10226 Hardwood Species
 n = int(input())                                            # n is the number of test cases you want to enter
 temp= raw_input()                                           # for first blank line
 for t in range(n):                                          # for every test case
