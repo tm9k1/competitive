@@ -1,4 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=X:/CODING/TOOLKIT/MinGW/bin/gcc.exe -DCMAKE_CXX_COMPILER=X:/CODING/TOOLKIT/MinGW/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" X:\CODING\competitive\cpp
--- Configuring done
--- Generating done
--- Build files have been written to: X:/CODING/competitive/cpp/cmake-build-debug
