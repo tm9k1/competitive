@@ -1,5 +1,4 @@
 #include <iostream>
-#include "bigint.h"
 using namespace std;
 int main(){
 	int t;
