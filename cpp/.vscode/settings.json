@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "files.associations": {
         "iostream": "cpp",
         "algorithm": "cpp",
@@ -26,4 +27,8 @@
         "typeinfo": "cpp",
         "utility": "cpp"
     }
+=======
+    "python.linting.enabled": false,
+    "python.linting.pylintEnabled": false
+>>>>>>> f32b04d8a10e36c881ea7f35861902202ebc70a8
 }
